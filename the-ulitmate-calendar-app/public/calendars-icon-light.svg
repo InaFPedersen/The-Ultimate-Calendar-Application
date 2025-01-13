@@ -1,0 +1,15 @@
+<svg width="88" height="81" viewBox="0 0 88 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M87.5 40.5C87.5 62.5532 68.0642 80.5 44 80.5C19.9358 80.5 0.5 62.5532 0.5 40.5C0.5 18.4468 19.9358 0.5 44 0.5C68.0642 0.5 87.5 18.4468 87.5 40.5Z" fill="white" stroke="black"/>
+<path d="M32.5 27L39.8612 41.25H25.1388L32.5 27Z" fill="black"/>
+<path d="M32.5 27L39.8612 41.25H25.1388L32.5 27Z" fill="black"/>
+<path d="M39 26C39 29.2498 36.156 32 32.5 32C28.844 32 26 29.2498 26 26C26 22.7502 28.844 20 32.5 20C36.156 20 39 22.7502 39 26Z" fill="black" stroke="black" stroke-width="2"/>
+<path d="M55.5 27L62.8612 41.25H48.1388L55.5 27Z" fill="black"/>
+<path d="M55.5 27L62.8612 41.25H48.1388L55.5 27Z" fill="black"/>
+<path d="M62 26C62 29.2498 59.156 32 55.5 32C51.844 32 49 29.2498 49 26C49 22.7502 51.844 20 55.5 20C59.156 20 62 22.7502 62 26Z" fill="black" stroke="black" stroke-width="2"/>
+<rect x="17" y="42" width="52" height="28" stroke="black" stroke-width="2"/>
+<line x1="29" y1="41" x2="29" y2="71" stroke="black" stroke-width="2"/>
+<line x1="44" y1="41" x2="44" y2="71" stroke="black" stroke-width="2"/>
+<line x1="56" y1="41" x2="56" y2="71" stroke="black" stroke-width="2"/>
+<line x1="16" y1="51" x2="70" y2="51" stroke="black" stroke-width="2"/>
+<line x1="16" y1="60" x2="70" y2="60" stroke="black" stroke-width="2"/>
+</svg>

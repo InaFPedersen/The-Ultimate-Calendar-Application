@@ -1,0 +1,12 @@
+<svg width="88" height="81" viewBox="0 0 88 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M87.5 40.5C87.5 18.4468 68.0642 0.5 44 0.5C19.9358 0.5 0.5 18.4468 0.5 40.5C0.5 62.5532 19.9358 80.5 44 80.5C68.0642 80.5 87.5 62.5532 87.5 40.5Z" fill="white" stroke="black"/>
+<rect x="10.5" y="16.5" width="68" height="48" fill="#FF0606" stroke="black"/>
+<line x1="32" y1="17" x2="32" y2="64" stroke="white" stroke-width="8"/>
+<line x1="78" y1="40" x2="11" y2="40" stroke="white" stroke-width="8"/>
+<line x1="32" y1="17" x2="32" y2="64" stroke="#100884" stroke-width="4"/>
+<line x1="32" y1="17" x2="32" y2="64" stroke="#100884" stroke-width="4"/>
+<line x1="32" y1="17" x2="32" y2="64" stroke="#100884" stroke-width="4"/>
+<line x1="78.0075" y1="40" x2="11.0075" y2="40.251" stroke="#100884" stroke-width="4"/>
+<line x1="78.0075" y1="40" x2="11.0075" y2="40.251" stroke="#100884" stroke-width="4"/>
+<line x1="78.0075" y1="40" x2="11.0075" y2="40.251" stroke="#100884" stroke-width="4"/>
+</svg>
