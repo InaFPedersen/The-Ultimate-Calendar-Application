@@ -14,10 +14,10 @@ import SubmitFeedback from './views/SubmitFeedback'
 import UserGuide from './views/UserGuide'
 import ViewFeedbacks from './views/ViewFeedbacks'
 import ViewHolidayRequests from './views/ViewHolidayRequests'
-import { useState } from 'react'
+import useGlobalStates from './hooks/useGlobalStates'
 
 const App = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const {isAuthenticated} = useGlobalStates();
 
   return (
     <BrowserRouter>

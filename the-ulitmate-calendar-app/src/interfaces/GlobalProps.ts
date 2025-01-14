@@ -1,6 +1,6 @@
 export default interface GlobalProps {
   isAuthenticated: boolean,
-  setIsAuthenticated: any,
+  setIsAuthenticated: (isAuthenticated: boolean) => {},
   activeLanguage: string,
-  setActiveLanguage: any
+  setActiveLanguage: (activeLanguage: string) => {},
 }
