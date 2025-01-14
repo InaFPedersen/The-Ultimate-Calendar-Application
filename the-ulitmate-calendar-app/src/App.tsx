@@ -1,34 +1,47 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Login from './views/Login'
+import Dashboard from './views/Dashboard'
+import AddEvent from './views/AddEvent'
+import AddGroup from './views/AddGroup'
+import AddHolidayRequest from './views/AddHolidayRequest'
+import AddUser from './views/AddUser'
+import Admin from './views/Admin'
+import Calendars from './views/Calendars'
+import EditUser from './views/EditUser'
+import HolidayRequestStatus from './views/HolidayRequestStatus'
+import Information from './views/Information'
+import SubmitFeedback from './views/SubmitFeedback'
+import UserGuide from './views/UserGuide'
+import ViewFeedbacks from './views/ViewFeedbacks'
+import ViewHolidayRequests from './views/ViewHolidayRequests'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <BrowserRouter>
+      <Routes>
+        {isAuthenticated ? 
+          <Route path='/' element={<Dashboard />} /> 
+          :
+          <Route path='/' element={<Login />}/>
+        }
+        <Route path='/add-event' element={<AddEvent />} />
+        <Route path='/add-group' element={<AddGroup />} />
+        <Route path='/add-holiday-request' element={<AddHolidayRequest />} />
+        <Route path='/add-user' element={<AddUser />} />
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/calendars' element={<Calendars />} />
+        <Route path='/edit-user' element={<EditUser />} />
+        <Route path='/holiday-request-status' element={<HolidayRequestStatus />} />
+        <Route path='/information' element={<Information />} />
+        <Route path='/submit-feedback' element={<SubmitFeedback />} />
+        <Route path='/user-guide' element={<UserGuide />} />
+        <Route path='/view-feedbacks' element={<ViewFeedbacks />} />
+        <Route path='/view-holiday-requests' element={<ViewHolidayRequests />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
