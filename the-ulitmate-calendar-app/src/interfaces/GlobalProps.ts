@@ -3,4 +3,6 @@ export default interface GlobalProps {
   setIsAuthenticated: (isAuthenticated: boolean) => {},
   activeLanguage: string,
   setActiveLanguage: (activeLanguage: string) => {},
+  lightModeActive: boolean,
+  setLightModeActive: (lightModeActive: boolean) => {}
 }
