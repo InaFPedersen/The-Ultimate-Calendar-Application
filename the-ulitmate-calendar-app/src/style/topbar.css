@@ -1,0 +1,98 @@
+.topbar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  
+}
+
+.topbar-container-light {
+  border-bottom: 1px solid #000;
+}
+
+.topbar-container-dark {
+  border-bottom: 1px solid #fff;
+}
+
+.topbar-img {
+  max-width: 55px;
+  max-height: 55px;
+  cursor: pointer;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.app-title {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.light-dark-mode {
+  margin-right: 20px
+}
+
+.language-flag {
+  margin-right: 20px;
+}
+
+.flag-dropdown {
+  position: absolute;
+  right: 90px;
+  top: 75px;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.profile-dropdown {
+  position: absolute;
+  right: 25px;
+  top: 75px;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.logout, .login {
+  padding-bottom: 10px;
+}
+
+.login {
+  padding-top: 30px;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+}
